@@ -1,0 +1,157 @@
+/*!
+ 
+ */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+	font-family: 'Open Sans', sans-serif;
+	background-color: #DCDCDC;
+}
+
+.navbar-fixed-top .nav {
+	background-color:#fff;
+}
+
+.navbar-inverse{
+	background-color:#000000;
+	border:none;
+	-webkit-box-shadow: 0px 2px 5px -2px rgba(219,219,219,1);
+-moz-box-shadow: 0px 2px 5px -2px rgba(219,219,219,1);
+box-shadow: 0px 2px 5px -2px rgba(219,219,219,1);
+}
+
+.navbar-inverse ul li{
+font-family: 'Droid Sans', sans-serif;
+}
+
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color:#000;
+}
+
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color:#000;
+	background-color:transparent
+}
+
+.top_name{
+	margin-top:10px;
+}
+.navbar-header a{
+	color:#606060;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:25px;
+}
+
+/*Forms
+------------------------------------*/
+.form-control {
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: #bbb;
+  box-shadow: 0 0 2px #c9c9c9;
+}
+
+/*Form Spacing*/
+.form-spacing .form-control {
+  margin-bottom: 15px;
+}
+
+/*Form Icons*/
+.input-group-addon {
+  color: #b3b3b3;
+  font-size: 14px;
+  background: #fff;
+}
+
+.input-group{
+	margin-bottom:20px;
+}
+
+.color-red{
+	color:#F00;
+}
+/*Buttons
+------------------------------------*/
+.btn {
+   box-shadow: none;
+}
+
+.btn-u {
+   border: 0;
+   color: #fff;
+   font-size: 14px;
+   cursor: pointer;
+   font-weight: 400;
+   padding: 6px 13px;
+   position: relative;
+   background: #72c02c;
+   display: inline-block;
+   text-decoration: none;
+}
+.btn-u:hover {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+a.btn-u {
+   /*padding: 4px 13px;*/
+   /*vertical-align: middle;*/
+}
+
+.btn-u-sm,
+a.btn-u-sm {
+   padding: 3px 12px;
+}
+
+.btn-u-lg,
+a.btn-u-lg {
+   font-size: 18px;
+   padding: 10px 25px;
+}
+
+.btn-u-xs,
+a.btn-u-xs {
+   font-size: 12px;
+   padding: 2px 12px;   
+   line-height: 18px;
+}
+
+/*Button Groups*/
+.btn-group .dropdown-menu > li > a {
+   padding: 3px 13px;
+}
+
+.btn-group > .btn-u, 
+.btn-group-vertical > .btn-u {
+   float: left;
+   position: relative;
+}
+
+.btn-group > .btn-u:first-child {
+   margin-left: 0;
+}
+.btn-u {
+	background: #72c02c;
+}
+
+.btn-u:hover {
+	background: #5fb611;
+}
+
+#error{
+	color:#F00;
+}
+
+#success{
+	color:#008000;
+}
